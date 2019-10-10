@@ -1,0 +1,112 @@
+body * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav {
+    background-color: gainsboro;
+    width: 100%;
+    height: 50px;
+  }
+  
+  nav h1 {
+    position: relative;
+    padding-left: 10px;
+    top: 15%;
+  }
+  
+  nav li {
+    display: block;
+    float: right;
+    margin-right: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    transform: translate(-50%, -85%);
+    color: purple;
+    font-size: 1.3em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  main {
+    margin-left: 13%;
+    
+  }
+  
+  .glass {
+    border: 1px solid rgb(184, 183, 183);
+    width: 37px;
+    position: relative;
+    left: 2px;
+    top: 10.4px;
+  }
+  
+  form {
+    margin-top: 1.5em;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+  }
+  
+  input {
+    height: 2.5em;
+    position: relative;
+    bottom: 5px;
+    width: 55%;
+    
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .button {
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 5%;
+    float: left;
+    padding: 8px 30px;
+    position: relative;
+  }
+  
+  .bbb {
+    margin-top: 35px;
+  }
+  
+  .outer {
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    clear: both;
+    position: absolute;
+    top: 230px;
+  }
+  
+  .line {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  
+  .insideline {
+    margin-right: 10px;
+  }
+  
+  .blue {
+    color: blue;
+  }
+  
+  .blue:hover {
+    background-color: white;
+  }
+  
+  .gray {
+    color: rgb(170, 170, 170);
+  }
